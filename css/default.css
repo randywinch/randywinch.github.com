@@ -1,0 +1,62 @@
+@charset "utf-8";
+body {
+	background-color: #82bcea;
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat-x;
+	margin: 0px auto;
+	padding: 0px;
+	text-align:center;
+}
+#container {
+	margin: 86px auto 30px auto;
+	position:relative;
+	text-align:left;
+	width: 600px;
+}
+#header {
+	background:url(../img/walksign.jpg) no-repeat top center;
+	height:326px;
+}
+#header a#twitter {
+	display:block;
+	position:relative;
+	left: 165px;
+	top: 72px;
+	width: 165px;
+	height: 50px;
+	overflow:hidden;
+	text-decoration:none;
+}
+#header a#linkedin {
+	display:block;
+	position:relative;
+	left: 165px;
+	top: 90px;
+	width: 165px;
+	height: 50px;
+	overflow:hidden;
+	text-decoration:none;
+}
+#content-top {
+	margin-top: 30px;
+	background: url(../img/content-top.gif) no-repeat;
+	height: 20px;
+}
+#content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: #ffffff;
+	padding: 3px 15px;
+	color: #3c669c;
+	text-align:left;
+}
+#content h1 {
+	font-size: 16px;
+}
+#content p {
+	font-size: 12px;
+	line-height: 24px;
+}
+#content-bottom {
+	background: url(../img/content-bottom.gif) no-repeat;
+	height: 20px;
+}

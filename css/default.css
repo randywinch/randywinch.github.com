@@ -1,60 +1,68 @@
-@charset "utf-8";
 body {
-	background-color: #82bcea;
-	margin: 0px auto;
-	padding: 0px;
-	text-align:center;
+	background-color: #233d56;
+	display: grid;
+	color: #fff;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
 }
-#container {
-	margin: 86px auto 30px auto;
-	position:relative;
-	text-align:left;
-	width: 600px;
+
+p {
+	margin-block: 0 1rem;
 }
-#header {
-	background:url(../img/walksign.jpg) no-repeat top center;
-	height:326px;
+
+main {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 2rem;
+	row-gap: 2rem;
 }
-#header a#twitter {
-	display:block;
-	position:relative;
-	left: 165px;
-	top: 72px;
-	width: 165px;
-	height: 50px;
-	overflow:hidden;
-	text-decoration:none;
+
+@media screen and (min-width: 768px) {
+	main {
+		padding: 4rem;
+	}
+	
 }
-#header a#linkedin {
-	display:block;
-	position:relative;
-	left: 165px;
-	top: 90px;
-	width: 165px;
-	height: 50px;
-	overflow:hidden;
-	text-decoration:none;
+
+header {
+	font-family: Sixtyfour, sans-serif;
+	font-size: 3rem;
+	text-align: center;
 }
-#content-top {
-	margin-top: 30px;
-	background: url(../img/content-top.gif) no-repeat;
-	height: 20px;
+
+nav {
+    column-gap: 1rem;
+    display: flex;
+    justify-content: center;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
-#content {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	background: #ffffff;
-	padding: 3px 15px;
-	color: #3c669c;
-	text-align:left;
+
+nav a {
+	aspect-ratio: 1/1;
+	background: white;
+	border-radius: .5rem;
+	padding: 1rem;
+	max-height: 4rem;
+	max-width: 4rem;
 }
-#content h1 {
-	font-size: 16px;
+
+nav img {
+	width: 100%;
 }
-#content p {
-	font-size: 12px;
-	line-height: 24px;
-}
-#content-bottom {
-	background: url(../img/content-bottom.gif) no-repeat;
-	height: 20px;
+
+footer {
+	align-content: flex-end;
+	align-items: baseline;
+	display: flex;
+	flex-wrap: wrap;	
+	font-size: .75rem;
+	justify-content: center;
+	margin: 0;
+	text-align: center;
 }
